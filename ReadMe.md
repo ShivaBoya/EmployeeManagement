@@ -52,8 +52,8 @@ Full CRUD REST API for /employees.
 Employee model:
 
 {
-  "name": "John Doe",
-  "email": "john@example.com",
+  "name": "ShivaSiddu",
+  "email": "shivasiddu80@gmail.com",
   "position": "Frontend Developer"
 }
 
