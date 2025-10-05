@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/employees";
+const API_URL = "https://shivae.onrender.com/employees";
 
 export const getEmployees = (query = "") => axios.get(query ? `${API_URL}?q=${query}` : API_URL);
 
