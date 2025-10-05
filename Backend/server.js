@@ -15,9 +15,7 @@ connectDB();
 
 app.use("/", employeeRoutes);
 
-// app.get("/", (req, res) => {
-//   res.send(" Employee Management API is running...");
-// });
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
